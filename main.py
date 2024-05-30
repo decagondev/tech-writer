@@ -38,7 +38,7 @@ def main():
     # Call OpenAI to generate the updated README content
     updated_readme = call_openai(prompt)
 
-    # Create PR for Updated PR
+    # Create PR for Updated README
     update_readme_and_create_pr(repo, updated_readme, readme_content.sha)
 
 if __name__ == '__main__':
