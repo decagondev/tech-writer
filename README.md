@@ -23,6 +23,10 @@ Embrace your creativity and personalize this project to craft a solution that un
 ---
 
 # Recent Updates
-- Added Flask API to the project with a random number list generator endpoint.
+- Added Flask API to the project with a random number list generator endpoint.  
+  **Changes in api.py:**
+  
+  Updated the docstring of the `random_numbers` function in `api.py` to provide more details on the process of generating random numbers and returning them as a JSON response.
+  Additionally, clarified the purpose and functionality of the debug mode in the `random_numbers` function.
 
 Feel free to explore the new functionality and continue enhancing your AI agent!
