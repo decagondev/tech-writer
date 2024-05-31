@@ -24,5 +24,7 @@ Embrace your creativity and personalize this project to craft a solution that un
 
 # Recent Updates
 - Added Flask API to the project with a random number list generator endpoint.
+- Updated Flask API to include detailed docstrings.
 
 Feel free to explore the new functionality and continue enhancing your AI agent!
+Consider the code changes and commit messages, determine if the README needs to be updated. If so, edit the README, ensuring to maintain its existing style and clarity take into account docstrings and other metadata when considering the updates to make.
