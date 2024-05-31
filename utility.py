@@ -23,7 +23,7 @@ def format_data_for_openai(diffs, readme_content, commit_messages):
         f"{commit_messages}"
         "Here is the current README file content:\n"
         f"{readme_content}\n"
-        "Consider the code changes and commit messages, determine if the README needs to be updated. If so, edit the README, ensuring to maintain its existing style and clarity.\n"
+        "Consider the code changes and commit messages, determine if the README needs to be updated. If so, edit the README, ensuring to maintain its existing style and clarity take in to account docstrings and other metadata when considering the updates to make.\n"
         "Updated README:\n"
     )
     return prompt
