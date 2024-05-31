@@ -39,4 +39,6 @@ Embrace your creativity and personalize this project to craft a solution that un
     
     - Started the server and listened on port 3000 with detailed information on the server start process.
     
+  - Updated the `README.md` to reflect recent code changes including detailed explanations of the Flask API and Express server additions. The README now provides insight into the updates made to the project.
+
 Feel free to explore the new functionality and continue enhancing your AI agent!
