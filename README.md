@@ -24,14 +24,19 @@ Embrace your creativity and personalize this project to craft a solution that un
 
 # Recent Updates
 - Added Flask API to the project with a random number list generator endpoint.  
-  **Changes in api.py:**
+  **Changes in api.py:**  
   
-  Updated the docstring of the `random_numbers` function in `api.py` to provide more details on the process of generating random numbers and returning them as a JSON response.
-  Additionally, clarified the purpose and functionality of the debug mode in the `random_numbers` function.
+  Updated the docstring of the `random_numbers` function in `api.py` to provide more details on the process of generating random numbers and returning them as a JSON response. Additionally, clarified the purpose and functionality of the debug mode in the `random_numbers` function.
 
-- Added an Express server to the project with functionality similar to the Python Flask server, including a route to generate a list of random integers and serve them as a JSON response.  
-  **Changes in server.js:**
+- Added an Express server to the project similar to the Python Flask server, including a route to generate a list of random integers and serve them as a JSON response.  
+  **Changes in server.js:**  
   
-  Created a route handler for GET requests to the /random endpoint to generate and return a list of 10 random integers between 1 and 100 as a JSON response. It listens on port 3000.
-
+  - Updated docstrings in the `server.js` file to provide detailed explanations of the server functionality.
+  
+    - Created an instance of an Express application with a comprehensive description of the framework.
+    
+    - Defined a route handler for GET requests to the `/random` endpoint to generate a list of 10 random integers between 1 and 100 as a JSON response.
+    
+    - Started the server and listened on port 3000 with detailed information on the server start process.
+    
 Feel free to explore the new functionality and continue enhancing your AI agent!
