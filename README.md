@@ -38,5 +38,10 @@ Embrace your creativity and personalize this project to craft a solution that un
     - Defined a route handler for GET requests to the `/random` endpoint to generate a list of 10 random integers between 1 and 100 as a JSON response.
     
     - Started the server and listened on port 3000 with detailed information on the server start process.
-    
+
+- Added a C CGI script that returns a list of 20 random numbers in JSON format.  
+  **Changes in random_list.c:**  
+  
+  Created a C program `random_list.c` that generates and prints a list of 20 random numbers in JSON format using the standard output. The list is generated using the C standard library functions for random number generation and includes proper JSON formatting.
+
 Feel free to explore the new functionality and continue enhancing your AI agent!
